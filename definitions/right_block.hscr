@@ -1,0 +1,10 @@
+n: 3
+d: 4
+depth: 500
+prefix: zy
+postfix:
+generators:
+IU
+IR
+RU
+RO

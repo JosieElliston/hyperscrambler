@@ -1,0 +1,11 @@
+n: 3
+d: 4
+depth: 50
+prefix: zy
+postfix:
+generators:
+IU
+IR
+FU IU RU ID RD FD
+RU IU RD IU RU ID2 RD // sune
+yw RO UO RI {1-2}ODL UO RO {1-2}ODL UO2 RI wy // RKT sune
