@@ -53,11 +53,8 @@ impl Definition {
 
         // remove empty lines and comments
         let mut lines = input.lines().filter_map(|line| {
-            if line.is_empty() {
-                None
-            } else {
-                Some(line[0..line.find("//").unwrap_or(line.len())].trim())
-            }
+            Some(line[0..line.find("//").unwrap_or(line.len())].trim())
+                .filter(|line| !line.is_empty())
         });
 
         let Some(Ok(n)) = lines
@@ -216,8 +213,12 @@ mod tests {
 d:  4
 depth: 100
 prefix: zy 
-postfix:  
+
+ postfix:  
+  
 generators: 
+// asdf
+ //  
 IU//
  IU//a
 IU IU // a 
