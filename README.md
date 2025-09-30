@@ -8,7 +8,7 @@ Call Hyperscrambler with a path to a scramble definition, and optionally, a outp
 
 ## Scramble definitions
 
-A scramble definition consists of
+A `.hscr` scramble definition consists of
 
 - the size and dimension of the puzzle,
 - the number of times to sample the generators,
@@ -17,3 +17,15 @@ A scramble definition consists of
 - a newline separated list of generators.
 
 The prefix, postfix, and generators must be a space separated list of HSC twists. Empty lines and everything following // on a line will be ignored. Consider changing the prefix to rotate the puzzle to your desired solving orientation.
+
+## TODO
+
+If you want some feature added, ping me in the hypercubes discord server.
+
+- autocopy
+- web
+- gui
+- github actions releases
+- changelog
+- add visible_pieces to .hscr
+- make .hscr sections optional
