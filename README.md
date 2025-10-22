@@ -6,7 +6,11 @@ Hyperscrambler (HSCR) is a tool for generating scrambles for [Hyperspeedcube](ht
 
 Call Hyperscrambler with a path to a scramble definition, and optionally, a output path.
 
-```cargo run --release -- --input definitions/right_block.hscr --output temp.hsc```
+```cargo run --release -- --input defs/right_block.hscr --output temp.hsc```
+
+or shortened:
+
+```cargo r -r -- -i defs/olc.hscr -o temp.hsc```
 
 It will print (or write to the output path) the generated scramble.
 
