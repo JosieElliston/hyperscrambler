@@ -10,7 +10,7 @@ Call Hyperscrambler with a path to a scramble definition, and optionally, a outp
 
 or shortened:
 
-```cargo r -r -- -i defs/olc.hscr -o temp.hsc```
+```cargo r -r -- -i defs/right_block.hscr -o temp.hsc```
 
 It will print (or write to the output path) the generated scramble.
 
