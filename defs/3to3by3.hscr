@@ -1,0 +1,33 @@
+n: 3
+d: 4
+depth: 500
+prefix: zy
+postfix:
+generators:
+RO
+LO
+UO
+DO
+FO
+BO
+
+RU2
+LU2
+RF2
+LF2
+
+UF2
+DF2
+UR2
+DR2
+
+FR2
+BR2
+FU2
+BU2
+
+IU
+IR
+
+OU
+OR
